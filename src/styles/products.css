@@ -1,0 +1,55 @@
+body {
+      padding: 0;
+      margin: 0;
+      box-sizing: content-box;
+      font-family: century gothic;
+}
+
+.header-content {
+      margin: 0;
+      margin-bottom: 30px;
+      padding: 10px;
+      background-image: linear-gradient(to right, orange 10%, yellow);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-weight: bold;
+      cursor: grab;
+}
+.section-content {
+      display: flex;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      justify-content: space-between;
+      align-items: stretch;
+      flex-wrap: wrap;
+      font-weight: bold;
+      text-align: center;
+}
+.button-content {
+      border: none;
+      padding: 10px;
+      margin: 0;
+      border-radius: none;
+      background-image: linear-gradient(to right, red, yellow);
+      font-weight: bold;
+      font-size: 1em;
+      font-family: century gothic;
+}
+h3 {
+      margin: 5px;
+      margin-top: -10px;
+}
+.button {
+      width: 15%;
+      margin: 20px;
+      margin-top: 15vh;
+}
+.button-content-back {
+      width: 5%;
+      padding: 20px;
+      margin: 0;
+      margin-top: 10px;
+      text-align: center;
+}
